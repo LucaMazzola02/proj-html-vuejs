@@ -51,7 +51,7 @@ export default {
     }
     .button{
         background-color: $blackColor;
-        padding: .8rem 1.5rem;
+        padding: 1.1rem 1.7rem;
         color: $whiteColor;
         font-size: 1.1rem;
         font-weight: bold;
