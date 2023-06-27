@@ -33,10 +33,11 @@ article{
     
 
     & h4{
-        color: $blackColor;
+        color: rgb(86, 86, 86);
         margin-bottom: 1.3rem;
         font-size: 16px;
         font-weight: 600;
+        letter-spacing: 4px;
     }
 
     & p{

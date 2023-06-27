@@ -34,13 +34,15 @@ export default {
     font-size: 10rem;
   }
   & p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 1rem 0 2rem;
   }
   .button{
     background-color: $skyblueColor;
     color: $whiteColor;
-    padding: .8rem 1.7rem;
+    font-weight: bold;
+    font-size: 1.15rem;
+    padding: 1rem 1.8rem;
     transition: $transition;
 
     &:hover{
