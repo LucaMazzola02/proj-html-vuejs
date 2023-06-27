@@ -1,13 +1,16 @@
 <template>
+    <FusionLayout />
     
 </template>
 
 <script>
+import FusionLayout from './FusionLayout.vue' 
 
 
 export default {
     name: 'AppMain',
     components:{
+        FusionLayout
     }
 }
 </script>
