@@ -6,24 +6,12 @@
                 </div>
                 <nav class="nav-bar flex">
                     <ul class="flex">
-                        <li>
-                            Home
-                        </li>
-                        <li>
-                            Apple
-                        </li>
-                        <li>
-                            Microsoft
-                        </li>
-                        <li>
-                            Android
-                        </li>
-                        <li>
-                            Forums
-                        </li>
-                        <li>
-                            Contact us
-                        </li>
+                        <a href=""><li>Home</li></a> 
+                        <a href=""><li>Apple</li></a> 
+                        <a href=""><li>Microsoft</li></a> 
+                        <a href=""><li>Android</li></a> 
+                        <a href=""><li>Forums</li></a> 
+                        <a href=""><li>Contact us</li></a> 
                     </ul>
                     <button class="button">Join us</button>
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -57,11 +45,12 @@ header{
     .nav-bar{
         align-items: center;
     }
-    & nav ul li{
+    & nav ul a li{
         margin-left: 2rem;
-        transition: all .5s cubic-bezier(.215, .61, .355, 1);
+        transition:$transition;
+        color: $lightgreyColor;
     }
-    & nav ul li:hover{
+    & nav ul a li:hover{
         color: $whiteColor;
     }
     button{
@@ -72,13 +61,14 @@ header{
         border-radius: 3px;
         font-size: 1.05rem;
         font-weight: bold;
-        transition: all .5s cubic-bezier(.215, .61, .355, 1);
+        transition: $transition;
 
 
         &:hover{
             background-color: $coralColor;
         }
     }
+    & i{color: $lightgreyColor;}
 }
     
 </style>
