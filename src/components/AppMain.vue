@@ -5,12 +5,17 @@
         <i class="fa-solid fa-arrow-right"></i>
     </div>
     <ForumLayout />
+    <div class="spacer flex">GO TO OUR FORUM
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
+    <AppCommunity />
 </template>
 
 <script>
 import FusionLayout from './FusionLayout.vue' 
 import CardList from './CardList.vue' 
 import ForumLayout from './ForumLayout.vue' 
+import AppCommunity from './AppCommunity.vue' 
 
 
 export default {
@@ -18,7 +23,8 @@ export default {
     components:{
         FusionLayout,
         CardList,
-        ForumLayout
+        ForumLayout,
+        AppCommunity,
     }
 }
 </script>
