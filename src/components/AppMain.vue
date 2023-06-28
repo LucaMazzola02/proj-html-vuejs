@@ -1,11 +1,16 @@
 <template>
     <FusionLayout />
     <CardList />  
+    <div class="spacer flex">READ OUR BLOG
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
+    <ForumLayout />
 </template>
 
 <script>
 import FusionLayout from './FusionLayout.vue' 
 import CardList from './CardList.vue' 
+import ForumLayout from './ForumLayout.vue' 
 
 
 export default {
@@ -13,6 +18,7 @@ export default {
     components:{
         FusionLayout,
         CardList,
+        ForumLayout
     }
 }
 </script>

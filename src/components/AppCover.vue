@@ -25,10 +25,9 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .cover{
-    height: 65vh;
+    height: 75vh;
     background-image: url(../assets/img/featured_article_1_bg.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     color: $whiteColor;
     align-items: center;
     text-align: left;

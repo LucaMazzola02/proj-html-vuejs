@@ -1,7 +1,7 @@
 <template>
   <div class="jumbotron flex">
     <div class="container">
-      <h1>Tech Forum </h1>
+      <h1>Tech Forum! </h1>
       <p>Discuss all the latest technology news and trends </p>
       <button class="button">GET AVADA NOW!></button>
     </div>
@@ -24,7 +24,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .jumbotron{
-  height: calc(100vh - 100px);
+  height: 100vh;
   background-image: url(../assets/img/home_slider_bg.jpg);
   background-size: cover;
   color: $whiteColor;

@@ -92,7 +92,7 @@ article .container{
     }
 
     & h1{
-        font-size: 36px;
+        font-size: 4rem;
         font-weight: bolder;
         margin: 1.5rem 0;
     }

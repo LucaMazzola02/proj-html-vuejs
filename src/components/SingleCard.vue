@@ -43,6 +43,7 @@ export default {
 
 .single-card{
     width: calc((100% / 3) - 4rem);
+    margin-bottom: 2rem;
 }
 
 .card-image .big-image{
@@ -58,6 +59,10 @@ export default {
     margin-top: 0.8rem;
     font-size: 1.2rem;
     font-weight: bold;
+    transition: $transition;
+    &:hover{
+        color: $skyblueColor;
+    }
 }
 
 .date{

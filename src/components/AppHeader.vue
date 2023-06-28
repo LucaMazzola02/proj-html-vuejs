@@ -36,6 +36,8 @@ export default {
 
 header{
     background-color: $skyblueColor;
+    position: fixed;
+    width: 100%;
 
     & .container{
         height: 100px;
@@ -46,7 +48,8 @@ header{
         align-items: center;
     }
     & nav ul a li{
-        margin-left: 2rem;
+        margin-left: 3rem;
+        font-size: 1.3rem;
         transition:$transition;
         color: $lightgreyColor;
     }
@@ -55,11 +58,11 @@ header{
     }
     button{
         margin: 0 2rem ;
-        padding: .6rem 1.2rem;
+        padding: 1rem 1.6rem;
         background-color: $blackColor;
         color: $whiteColor;
         border-radius: 3px;
-        font-size: 1.05rem;
+        font-size: 1.3rem;
         font-weight: bold;
         transition: $transition;
 
