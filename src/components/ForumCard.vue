@@ -45,7 +45,7 @@ export default {
         background-color: $coralColor;
         width: 80px;
         height: 80px;
-        padding: 10px;
+        padding: 14px;
         border-radius: 50%;
         margin: auto;
         margin-bottom: 1.5rem;
@@ -53,7 +53,10 @@ export default {
         transition: $transition;
 
         &:hover{
-            box-shadow: 0 0 20px 20px $coralColor;
+            box-shadow: 0 0 20px 20px $coralColor;    
+        }
+        &:hover .card-title{
+            color: $coralColor;
         }
 
     }

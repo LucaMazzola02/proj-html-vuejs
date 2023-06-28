@@ -37,6 +37,7 @@ export default {
 header{
     background-color: $skyblueColor;
     position: fixed;
+    z-index: 999;
     width: 100%;
 
     & .container{
