@@ -9,6 +9,7 @@
         <i class="fa-solid fa-arrow-right"></i>
     </div>
     <AppCommunity />
+    <AppCta />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import FusionLayout from './FusionLayout.vue'
 import CardList from './CardList.vue' 
 import ForumLayout from './ForumLayout.vue' 
 import AppCommunity from './AppCommunity.vue' 
+import AppCta from './AppCta.vue' 
 
 
 export default {
@@ -25,6 +27,7 @@ export default {
         CardList,
         ForumLayout,
         AppCommunity,
+        AppCta,
     }
 }
 </script>
