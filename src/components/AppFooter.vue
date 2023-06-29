@@ -33,9 +33,16 @@
     <div class="footer-bottom">
         <div class="container flex">
             <section>
-                <p>© Copyright 2012 - 2023 | Avada Website Builder by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+                <p>© Copyright 2012 - 2023 | <span>Avada Website Builder</span> by <span>ThemeFusion</span>  | All Rights Reserved | Powered by <span>WordPress</span></p>
             </section>
-            <section></section>
+            <section>
+                <ul class="flex">
+                    <li class="bg-fb"><i class="fa-brands fa-facebook-f"></i></li>
+                    <li class="bg-tw"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="bg-ig"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="bg-yt"><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </section>
         </div>
     </div>
 
@@ -90,10 +97,40 @@ export default {
 }
 
 .footer-bottom .container{
-    height: 400px;
+    height: 200px;
     justify-content: space-between;
     align-items: center;
 
+    & p{
+        color: $greyColor;
+        font-size: 1.05rem;
+    }
+
+    & section p span{
+        color: $blackColor;
+        transition: $transition;
+        &:hover{
+            color: $skyblueColor;
+        }
+    }
+
+
+
+    section ul li{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-left: 2.5rem;
+        font-size: 1.5rem;
+        position: relative;
+        color: $whiteColor;
+        & i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
 }
   
 </style>

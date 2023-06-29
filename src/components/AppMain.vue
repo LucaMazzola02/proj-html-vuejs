@@ -10,7 +10,6 @@
     </div>
     <AppCommunity />
     <AppCta />
-    <AppFooter />
 </template>
 
 <script>
@@ -19,7 +18,6 @@ import CardList from './CardList.vue'
 import ForumLayout from './ForumLayout.vue' 
 import AppCommunity from './AppCommunity.vue' 
 import AppCta from './AppCta.vue' 
-import AppFooter from './AppFooter.vue' 
 
 
 export default {
@@ -30,7 +28,7 @@ export default {
         ForumLayout,
         AppCommunity,
         AppCta,
-        AppFooter,
+
     }
 }
 </script>
