@@ -1,6 +1,7 @@
 <template>
     <FusionLayout />
-    <CardList />  
+    <CardList /> 
+    <AppTutorial /> 
     <div class="spacer flex">READ OUR BLOG
         <i class="fa-solid fa-arrow-right"></i>
     </div>
@@ -18,6 +19,7 @@ import CardList from './CardList.vue'
 import ForumLayout from './ForumLayout.vue' 
 import AppCommunity from './AppCommunity.vue' 
 import AppCta from './AppCta.vue' 
+import AppTutorial from './AppTutorial.vue' 
 
 
 export default {
@@ -28,6 +30,7 @@ export default {
         ForumLayout,
         AppCommunity,
         AppCta,
+        AppTutorial
 
     }
 }
